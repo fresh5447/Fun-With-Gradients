@@ -20,18 +20,21 @@
             color-stop(0.05, orange), color-stop(0.4, #ff385d),
             color-stop(0.6, #00af00), color-stop(0.8, #33fff2),
             to(#388fff)
+
+
     );
 text-align: center;
 
 }
 
-body {
+#body {
     background: -webkit-gradient(
             radial, 500 40%, 0, 301 25%, 360, from(red),
             color-stop(0.05, red), color-stop(0.4, #0005ff),
             color-stop(0.04, orange), color-stop(0.4, #0005ff),
             color-stop(0.6, chartreuse), color-stop(0.8, #33fff2),
             to(#388fff)
+    height: 200px;
     );
 }
 
@@ -46,3 +49,11 @@ body {
             to(#388fff)
     );
 }
+
+img.scaled:hover {
+    -webkit-transform : scale(2);
+    transform : scale(2);
+}
+
+
+m : scale(2);
