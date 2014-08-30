@@ -1,0 +1,48 @@
+#imgborder3 {
+    -webkit-border-top-left-radius : 2em;
+    -webkit-border-top-right-radius : 2em;
+    -webkit-border-bottom-left-radius : 0.5em;
+    -webkit-border-bottom-right-radius : 0.5em;
+    border-top-left-radius : 5em;
+    border-top-right-radius : 5em;
+    border-bottom-left-radius : 2.5em;
+    border-bottom-right-radius : 2.5em;
+
+
+}
+
+#imgborder1, #imgborder2, #imgborder3,h1 {
+    -webkit-border-radius : 50%;
+    border-radius : 10em 10em 10em 10em;
+    padding: 10px, 10px, 10px, 10px;
+    background: -webkit-gradient(
+            radial, 500 40%, 0, 301 25%, 360, from(red),
+            color-stop(0.05, orange), color-stop(0.4, #ff385d),
+            color-stop(0.6, #00af00), color-stop(0.8, #33fff2),
+            to(#388fff)
+    );
+text-align: center;
+
+}
+
+body {
+    background: -webkit-gradient(
+            radial, 500 40%, 0, 301 25%, 360, from(red),
+            color-stop(0.05, red), color-stop(0.4, #0005ff),
+            color-stop(0.04, orange), color-stop(0.4, #0005ff),
+            color-stop(0.6, chartreuse), color-stop(0.8, #33fff2),
+            to(#388fff)
+    );
+}
+
+
+#test {
+
+    background: -webkit-gradient(
+            radial, 500 40%, 0, 301 25%, 360, from(red),
+            color-stop(0.05, deepskyblue), color-stop(0.4, #0005ff),
+            color-stop(0.04, blueviolet), color-stop(0.4, #0005ff),
+            color-stop(0.6, chartreuse), color-stop(0.8, #33fff2),
+            to(#388fff)
+    );
+}
